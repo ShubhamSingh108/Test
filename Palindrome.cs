@@ -12,7 +12,9 @@ using System;
            r=n%10;      
            sum=(sum*10)+r;      
            n=n/10;      
-          }      
+          }     
+
+// checking condition		  
           if(temp==sum)      
            Console.Write("Number is Palindrome.");      
           else      
